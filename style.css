@@ -400,3 +400,119 @@ h1 em, h2 em { color: var(--brown); font-weight: 500; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+/* Keep supporting copy comfortably readable and purchase actions unmistakable. */
+body { font-size: 17px; }
+.site-nav { font-size: 14px; }
+.header-cta { min-height: 56px; font-size: 15px; font-weight: 800; }
+.header-cta-label { font-size: 10px; }
+.button.button-strong {
+  min-height: 70px;
+  padding-inline: 29px;
+  border: 3px solid #a9703d;
+  background: #713d1a;
+  box-shadow: 0 7px 0 #3a2112, 0 12px 24px rgba(69, 40, 22, .18);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .06em;
+}
+.button.button-strong:hover {
+  transform: translateY(-3px);
+  background: #452816;
+  box-shadow: 0 10px 0 #3a2112, 0 16px 28px rgba(69, 40, 22, .2);
+}
+.button.button-strong:focus-visible, .header-cta:focus-visible {
+  outline: 3px solid #d6a976;
+  outline-offset: 4px;
+}
+.button-light.button-strong {
+  border-color: #ffe0b6;
+  background: #fff5e6;
+  color: #39200f;
+  box-shadow: 0 7px 0 #261509, 0 12px 24px rgba(25, 15, 8, .24);
+}
+.button-light.button-strong:hover {
+  background: #fff;
+  box-shadow: 0 10px 0 #261509, 0 16px 28px rgba(25, 15, 8, .26);
+}
+.eyebrow { font-size: 11px; }
+.hero-description { font-size: 18px; }
+.text-link { font-size: 14px; }
+.hero-note { font-size: 13px; }
+.trust-inner { font-size: 13px; }
+.trust-inner > span:first-child { font-size: 10px; }
+.large-copy { font-size: 18px; }
+.comparison-card h3 { font-size: 15px; }
+.comparison-card p { font-size: 14px; }
+.section-side-copy, .pricing-intro > p:last-child { font-size: 16px; }
+.card-number, .card-foot { font-size: 10px; }
+.included-card p { font-size: 14px; }
+.card-foot { font-size: 9px; }
+.bonus-kicker { font-size: 10px; }
+.bonus-lede { font-size: 16px; }
+.bonus-points p { font-size: 14px; }
+.ipo-card-top { font-size: 10px; }
+.ipo-card-caption { font-size: 11px; }
+.ipo-stats > div > span { font-size: 11px; }
+.ipo-explainer p { font-size: 13px; }
+.ipo-source { font-size: 10px; }
+.bonus-disclaimer > span { font-size: 10px; }
+.bonus-disclaimer p { font-size: 12px; }
+.benefits-lede { font-size: 16px; }
+.benefit-item h3 { font-size: 17px; }
+.benefit-item p { font-size: 14px; }
+.price-label { font-size: 11px; }
+.price-badge { font-size: 9px; }
+.price-caption { font-size: 13px; }
+.price-includes li { font-size: 14px; }
+.checkout-note { font-size: 12px; }
+.faq-intro > p:not(.eyebrow) { font-size: 15px; }
+.faq-question { font-size: 16px; }
+.faq-answer p { font-size: 14px; }
+.final-cta-action > span { font-size: 13px; }
+.footer-wordmark { font-size: 10px; }
+.footer-wordmark strong { font-size: 10px; }
+.footer-inner > p:not(.disclaimer) { font-size: 12px; }
+.back-top { font-size: 10px; }
+.disclaimer { font-size: 11px; }
+
+@media (max-width: 900px) {
+  .header-cta { min-height: 52px; font-size: 13px; }
+}
+
+@media (max-width: 650px) {
+  .site-nav { font-size: 16px; }
+  .header-cta { min-height: 46px; padding-inline: 11px; font-size: 13px; }
+  .hero-description { font-size: 16px; }
+  .hero-actions .button-strong { min-height: 64px; padding-inline: 16px; font-size: 12px; }
+  .hero-note { font-size: 12px; }
+  .trust-inner { font-size: 12px; }
+  .trust-inner > span:first-child { font-size: 9px; }
+  .large-copy { font-size: 16px; }
+  .section-side-copy, .pricing-intro > p:last-child { font-size: 15px; }
+  .comparison-card h3 { font-size: 15px; }
+  .comparison-card p { font-size: 14px; }
+  .section-cta .button-strong, .faq-cta, .bonus-cta {
+    min-height: 64px;
+    justify-content: space-between;
+    padding-inline: 14px;
+    font-size: 11px;
+  }
+  .section-cta-note { font-size: 12px; }
+  .included-card p { font-size: 15px; }
+  .bonus-lede { font-size: 16px; }
+  .bonus-points p { font-size: 14px; }
+  .ipo-explainer p { font-size: 13px; }
+  .bonus-disclaimer p { font-size: 12px; }
+  .benefits-lede { font-size: 15px; }
+  .benefit-item h3 { font-size: 16px; }
+  .benefit-item p { font-size: 13px; }
+  .price-includes li { font-size: 14px; }
+  .checkout-note { font-size: 12px; }
+  .faq-question { font-size: 15px; }
+  .faq-answer p { font-size: 14px; }
+  .final-cta-action .button-strong { min-height: 64px; justify-content: space-between; padding-inline: 14px; font-size: 11px; }
+  .footer-inner > p:not(.disclaimer) { font-size: 12px; }
+  .disclaimer { font-size: 11px; }
+}
