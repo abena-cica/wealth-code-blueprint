@@ -525,7 +525,7 @@ body { font-size: 17px; }
   border-radius: 5px;
   background: linear-gradient(135deg, #8c5228, #613515 72%, #482916);
   box-shadow: 0 5px 0 #351d10, 0 8px 20px rgba(69, 40, 22, .24), inset 0 1px 0 rgba(255, 244, 225, .3);
-  font-size: 16px;
+  font-size: 19px;
 }
 .header-cta:hover { background: linear-gradient(135deg, #9a6032, #542d14); box-shadow: 0 7px 0 #351d10, 0 12px 24px rgba(69, 40, 22, .27), inset 0 1px 0 rgba(255, 244, 225, .35); }
 .header-cta-label { font-size: 11px; }
@@ -538,7 +538,7 @@ body { font-size: 17px; }
   background: linear-gradient(135deg, #965829 0%, #713d1a 52%, #4d2b17 100%);
   box-shadow: 0 8px 0 #3a2112, 0 13px 26px rgba(69, 40, 22, .2), inset 0 1px 0 rgba(255, 244, 225, .32);
   color: #fffaf2;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 800;
   letter-spacing: .065em;
 }
@@ -567,42 +567,42 @@ body { font-size: 17px; }
   min-height: 54px;
   flex: 0 0 auto;
   padding-inline: 17px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .trust-inner .trust-cta span { margin-left: 5px; color: inherit; }
 
 @media (max-width: 900px) {
-  .header-cta { min-height: 56px; padding-inline: 14px; font-size: 13px; }
-  .header-cta-label { font-size: 9px; }
+  .header-cta { min-height: 56px; padding-inline: 14px; font-size: 17px; }
+  .header-cta-label { font-size: 10px; }
   .trust-inner { flex-wrap: wrap; justify-content: center; padding-block: 13px; }
   .trust-inner .trust-cta { min-height: 52px; }
 }
 
 @media (max-width: 650px) {
-  .header-cta { min-height: 50px; padding-inline: 11px; border-width: 2px; font-size: 14px; }
+  .header-cta { min-height: 52px; padding-inline: 11px; border-width: 2px; font-size: 16px; }
   .header-cta-label, .header-cta > span:last-child { display: none; }
   .button.button-strong {
-    min-height: 72px;
+    min-height: 82px;
     padding-inline: 17px;
     border-width: 2px;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: .045em;
   }
   .hero-actions { align-items: stretch; flex-direction: column; }
-  .hero-actions .button-strong { width: min(100%, 430px); min-height: 76px; padding-inline: 17px; font-size: 13px; }
+  .hero-actions .button-strong { width: min(100%, 430px); min-height: 82px; padding-inline: 17px; font-size: 15px; }
   .hero-actions .text-link { padding-block: 4px; font-size: 14px; }
   .section-cta .button-strong, .section-cta-centered .button-strong,
   .bonus-cta, .benefits-copy > .button-strong, .faq-cta {
     width: 100%;
-    min-height: 72px;
+    min-height: 82px;
     padding-inline: 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .price-button { min-height: 76px !important; }
   .final-cta-action { width: 100%; }
-  .final-cta-action .button-strong { min-height: 72px; padding-inline: 15px; font-size: 12px; }
+  .final-cta-action .button-strong { min-height: 82px; padding-inline: 15px; font-size: 14px; }
   .trust-inner { gap: 11px 14px; }
-  .trust-inner .trust-cta { width: min(100%, 360px); min-height: 62px; justify-content: center; font-size: 13px; }
+  .trust-inner .trust-cta { width: min(100%, 360px); min-height: 70px; justify-content: center; font-size: 15px; }
 }
 
 @media (max-width: 350px) {
@@ -610,7 +610,7 @@ body { font-size: 17px; }
   .header-inner { gap: 7px; }
   .wordmark { gap: 4px; }
   .wordmark strong { font-size: 7px; }
-  .header-cta { padding-inline: 7px; font-size: 12px; }
+  .header-cta { padding-inline: 7px; font-size: 14px; }
   .menu-toggle { width: 32px; height: 32px; flex-basis: 32px; }
-  .button.button-strong, .final-cta-action .button-strong { padding-inline: 11px; font-size: 11px; }
+  .button.button-strong, .final-cta-action .button-strong { padding-inline: 11px; font-size: 12px; }
 }
